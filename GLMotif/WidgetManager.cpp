@@ -30,6 +30,8 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
 #include <GLMotif/Widget.h>
 #include <GLMotif/WidgetAlgorithms.h>
 
+using GLTransformationWrappers::glMultMatrix;  // PO'Leary
+
 namespace GLMotif {
 
 /********************************************

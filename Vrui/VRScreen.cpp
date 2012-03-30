@@ -37,6 +37,8 @@ Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA
 #include <Vrui/InputDevice.h>
 #include <Vrui/Vrui.h>
 
+using GLTransformationWrappers::glMultMatrix; // PO'Leary
+
 namespace Vrui {
 
 /*************************

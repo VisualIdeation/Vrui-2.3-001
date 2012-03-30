@@ -41,6 +41,8 @@ Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA
 #include <GLMotif/WidgetManager.h>
 #include <Vrui/ToolManager.h>
 
+using GLTransformationWrappers::glMultMatrix; // PO'Leary
+
 namespace Vrui {
 
 /*************************************

@@ -30,6 +30,8 @@ not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite
 Force instantiation of all standard GLGeometry functions:
 ********************************************************/
 
+namespace GLTransformationWrappers { // PO'Leary
+
 template void glLoadMatrix(const Geometry::TranslationTransformation<float,3>&);
 template void glLoadMatrix(const Geometry::TranslationTransformation<double,3>&);
 template void glMultMatrix(const Geometry::TranslationTransformation<float,3>&);
@@ -69,6 +71,8 @@ template void glLoadMatrix(const Geometry::ProjectiveTransformation<float,3>&);
 template void glLoadMatrix(const Geometry::ProjectiveTransformation<double,3>&);
 template void glMultMatrix(const Geometry::ProjectiveTransformation<float,3>&);
 template void glMultMatrix(const Geometry::ProjectiveTransformation<double,3>&);
+
+} // PO'Leary
 
 template Geometry::ProjectiveTransformation<float,3> glGetMatrix<float>(GLMatrixEnums::Pname pname);
 template Geometry::ProjectiveTransformation<double,3> glGetMatrix<double>(GLMatrixEnums::Pname pname);

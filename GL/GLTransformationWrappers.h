@@ -54,6 +54,8 @@ class ProjectiveTransformation;
 Transformation wrapper functions:
 ********************************/
 
+namespace GLTransformationWrappers { // PO'Leary
+
 template <class ScalarParam>
 void glLoadMatrix(const Geometry::TranslationTransformation<ScalarParam,3>& t);
 template <class ScalarParam>
@@ -86,6 +88,8 @@ template <class ScalarParam>
 void glLoadMatrix(const Geometry::ProjectiveTransformation<ScalarParam,3>& t);
 template <class ScalarParam>
 void glMultMatrix(const Geometry::ProjectiveTransformation<ScalarParam,3>& t);
+
+} // PO'Leary
 
 template <class ScalarParam>
 Geometry::ProjectiveTransformation<ScalarParam,3> glGetMatrix(GLMatrixEnums::Pname pname);

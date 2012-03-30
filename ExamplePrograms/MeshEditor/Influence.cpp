@@ -13,6 +13,8 @@ actions.
 
 #include "Influence.h"
 
+using GLTransformationWrappers::glMultMatrix; // PO'Leary
+
 /**************************
 Methods of class Influence:
 **************************/

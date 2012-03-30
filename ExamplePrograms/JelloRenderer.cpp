@@ -31,6 +31,8 @@ Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
 
 #include "JelloRenderer.h"
 
+using GLTransformationWrappers::glMultMatrix; // PO'Leary
+
 /****************************************
 Methods of class JelloRenderer::DataItem:
 ****************************************/

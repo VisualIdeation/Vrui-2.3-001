@@ -33,6 +33,8 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 #include <Vrui/Vrui.h>
 #include <Vrui/Application.h>
 
+using GLTransformationWrappers::glMultMatrix; // PO'Leary
+
 class VruiDemo:public Vrui::Application
 	{
 	/* Elements: */

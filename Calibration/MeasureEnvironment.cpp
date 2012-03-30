@@ -62,6 +62,8 @@ Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA
 #include "PTransformFitter.h"
 #include "LevenbergMarquardtMinimizer.h"
 
+using GLTransformationWrappers::glMultMatrix; // PO'Leary
+
 namespace {
 
 /****************

@@ -31,6 +31,8 @@ Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA
 #include <GL/GLTransformationWrappers.h>
 #include <Vrui/DisplayState.h>
 
+using GLTransformationWrappers::glMultMatrix; // PO'Leary
+
 namespace Vrui {
 
 /***********************************

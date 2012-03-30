@@ -110,6 +110,8 @@ inline void glScale(ScalarParam uniformScale)
 	glScale(uniformScale,uniformScale,uniformScale);
 	}
 
+namespace GLMatrixTemplates { // PO'Leary
+
 inline void glLoadMatrix(const GLfloat matrix[16])
 	{
 	glLoadMatrixf(matrix);
@@ -129,5 +131,7 @@ inline void glMultMatrix(const GLdouble matrix[16])
 	{
 	glMultMatrixd(matrix);
 	}
+
+} // PO'Leary
 
 #endif

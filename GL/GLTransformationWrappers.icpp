@@ -45,6 +45,8 @@ not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite
 Overloaded versions of matrix calls:
 ***********************************/
 
+namespace GLTransformationWrappers { // PO'Leary
+
 template <class ScalarParam>
 inline
 void
@@ -185,7 +187,7 @@ glLoadMatrix(
 	temp[15]=ScalarParam(1);
 	
 	/* Upload the temporary array: */
-	glLoadMatrix(temp);
+	GLMatrixTemplates::glLoadMatrix(temp); // PO'Leary
 	}
 
 template <class ScalarParam>
@@ -208,7 +210,7 @@ glMultMatrix(
 	temp[15]=ScalarParam(1);
 	
 	/* Upload the temporary array: */
-	glMultMatrix(temp);
+	GLMatrixTemplates::glMultMatrix(temp); // PO'Leary
 	}
 
 template <class ScalarParam>
@@ -226,7 +228,7 @@ glLoadMatrix(
 			*tPtr=m(i,j);
 	
 	/* Upload the temporary array: */
-	glLoadMatrix(temp);
+	GLMatrixTemplates::glLoadMatrix(temp); // PO'Leary
 	}
 
 template <class ScalarParam>
@@ -244,8 +246,10 @@ glMultMatrix(
 			*tPtr=m(i,j);
 	
 	/* Upload the temporary array: */
-	glMultMatrix(temp);
+	GLMatrixTemplates::glMultMatrix(temp); // PO'Leary
 	}
+
+} // PO'Leary
 
 template <class ScalarParam>
 inline

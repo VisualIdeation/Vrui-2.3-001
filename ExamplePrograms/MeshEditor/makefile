@@ -19,7 +19,7 @@
 ########################################################################
 
 # Set the Vrui installation directory:
-VRUIDIR := $(HOME)/Vrui-2.3
+VRUIDIR := /opt/local/Vrui-2.3
 
 # Set up additional flags for the C++ compiler:
 CFLAGS = 

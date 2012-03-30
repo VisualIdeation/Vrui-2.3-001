@@ -88,6 +88,8 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 
 #include "ShowEarthModel.h"
 
+using GLTransformationWrappers::glMultMatrix; // PO'Leary
+
 /*******************************************************************
 Methods of class ShowEarthModel::RotatedGeodeticCoordinateTransform:
 *******************************************************************/
